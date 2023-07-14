@@ -148,5 +148,27 @@ img {
 
 @media screen and (max-width: 480px) {
 
-    {}
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .lessons .col, .steps .col {
+        width: 100%;
+    }
+
+    .why-us{
+        background-color: #222222;
+        margin-bottom: 0;
+    }
+    .steps{
+        margin-bottom: 0;
+    }
+    
+    .why-us{
+        padding: 3rem 0;
+    }
 }
+
